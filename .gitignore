@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+bin/
+obj/
+
+# Rider
+.idea/
+
+# Logs
+*.log
