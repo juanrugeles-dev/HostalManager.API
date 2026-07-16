@@ -16,6 +16,5 @@ namespace HostalManager.Domain.Exceptions
             : base(message)
         {
         }
-    {
     }
 }

@@ -16,7 +16,7 @@ namespace HostalManager.Domain.Entities
     private Hostel() { } // Private constructor for EF Core
         public Hostel(string number)
         {
-            if (string.IsNullOrWhiteSpace(name))
+            if (string.IsNullOrWhiteSpace(Number))
             {
                 throw new HostelException("Hostel number cannot be empty.");
             }
